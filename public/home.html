@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head class="top-banner">
+    <meta charset="utf-8">
+    <title>Findyourweather</title>
+    <link rel="stylesheet" href="style.css">
+    <script type= "module" src="app.js" defer></script>
+  </head>
+
+  <section class="top-banner">
+    <div class="container">
+      <h1 class="heading">Findyourweather</h1>
+      <form id="search">
+        <input type="text" placeholder="Search your city weather"  id="word-input" autofocus>
+        <button type="submit">SEARCH!</button>
+        <label><span class="msg"></span></label>
+      </form>
+    </div>
+  </section>
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities"></ul>
+    </div>
+  </section>
+  <br>
+  <br>
+
+  <body class="top-banner">
+    <hr />
+    <div id="results" class="hidden">
+      <br>
+      <p>The weather of <strong id="word"></strong> tends to be:</p>
+      <br>
+      <p><blockquote id="definition"></blockquote></p>
+      <br>
+      <hr />
+      <form id="set">
+        <label>
+          Change the characteristics of this place:
+        </label>
+       <br> 
+       <br>
+       <label>Location <input id="set-word-input" type="text" readonly/> </label>
+        <br>
+        <br>
+        <label>
+          Characteristics
+        </label>
+        <br>
+        <br>
+        <textarea id="set-def-input" class="cuadro"></textarea>
+        <br>
+        <br>
+        <button type="submit" value="Submit">SUBMIT</button> <br> <br> <label id="status"></label>
+        <br>
+        <br>
+      </form>
+    </div>
+
+  </body>
+
+  <footer class="page-footer">
+    <div class="container">
+      <small>Trabajo Integrador Austral 2023 - Thiago Lezcano, Juan Cruz Gomez Aguilera, Felipe Jasiukiweicz, Tomas Ceballos</a>
+      </small>
+    </div>
+  </footer>
+</html>
