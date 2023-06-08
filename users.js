@@ -1,5 +1,5 @@
 let users = new Map();
-users.set("lio", {user: "lio", password: "messi"});
-users.set("dibu", {user: "dibu", password: "martinez"});
+users.set("thiago", {user: "thiago", password: "123"});
+users.set("daniel", {user: "daniel", password: "1234"});
  
 export default users;
