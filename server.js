@@ -8,7 +8,7 @@ import Authorization from "./auth.js"
 const __dirname = fs.realpathSync('.');
 
 ////////////////////////////////////////////////////////////////////////////////
-class DictionaryBackendServer {
+class WeatherBackendServer {
   constructor() {
     
     const app = express();
@@ -59,4 +59,4 @@ class DictionaryBackendServer {
   }
 }
 
-new DictionaryBackendServer();
+new WeatherBackendServer();
